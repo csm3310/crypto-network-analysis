@@ -138,7 +138,18 @@ Kaggle에서 수집한 1분 단위 암호화폐 거래 데이터를 바탕으로
 
 ---
 
-## 5. 결과 미리보기
+## 5. 관련 논문
+
+본 프로젝트의 핵심 분석 내용은 아래 학술대회 논문으로 정리 및 게재되었습니다.
+
+- **Choi Sungmin, Ji-young Woo**,  
+  *A Network-based Framework for Abnormal Trading Detection in Cryptocurrency Markets*,  
+  한국컴퓨터정보학회 학술발표논문집, 2025년 한국컴퓨터정보학회 하계학술대회 논문집 제33권 2호, pp.95-96, 2025.  
+  [논문 링크](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12337709)
+
+---
+
+## 6. 결과 미리보기
 
 ### Figure 1. 코인 간 이상 거래 전이 커뮤니티
 이상 거래가 5분 이내 다른 코인으로 이어진 전이 관계를 기반으로 구성한 네트워크입니다.  
@@ -155,7 +166,7 @@ Louvain 커뮤니티 탐지를 적용하여, 이상 거래가 특정 코인 집�
 
 ---
 
-## 6. 노트북 구성
+## 7. 노트북 구성
 
 본 프로젝트의 전체 분석 과정은 하나의 Jupyter Notebook에 정리되어 있습니다.
 
@@ -173,7 +184,7 @@ Louvain 커뮤니티 탐지를 적용하여, 이상 거래가 특정 코인 집�
 
 ---
 
-## 7. 사용 기술
+## 8. 사용 기술
 
 - Python
 - Pandas / NumPy
@@ -184,7 +195,7 @@ Louvain 커뮤니티 탐지를 적용하여, 이상 거래가 특정 코인 집�
 
 ---
 
-## 8. 실행 방법
+## 9. 실행 방법
 
 ```bash
 pip install -r requirements.txt
