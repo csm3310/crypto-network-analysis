@@ -144,14 +144,14 @@ Kaggle에서 수집한 1분 단위 암호화폐 거래 데이터를 바탕으로
 이상 거래가 5분 이내 다른 코인으로 이어진 전이 관계를 기반으로 구성한 네트워크입니다.  
 Louvain 커뮤니티 탐지를 적용하여, 이상 거래가 특정 코인 집단 내부에서 반복적으로 전이되는 구조를 시각화하였습니다.
 
-![Figure 1 - Coin-to-Coin Anomalous Transition Communities](images/figure 1.png)
+![Figure 1 - Coin-to-Coin Anomalous Transition Communities](images/figure%201.png)
 
 ### Figure 2. 이상 거래 유사도 네트워크
 상위 100개 코인에 대해 이상 거래 특성의 유사도를 계산하고,  
 코사인 유사도 기준으로 연결한 네트워크입니다.  
 유사한 이상 거래 패턴을 공유하는 코인들이 어떤 구조를 이루는지 보여줍니다.
 
-![Figure 2 - Anomaly Similarity Network](images/figure 2.png)
+![Figure 2 - Anomaly Similarity Network](images/figure%202.png)
 
 ---
 
